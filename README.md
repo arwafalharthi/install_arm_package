@@ -28,3 +28,8 @@ roslaunch robot_arm_pkg_motors.launch
 ```
 ## after run
 ![ArmPkgRViz](https://user-images.githubusercontent.com/85634104/122269436-e03f2780-cee5-11eb-9ad0-939f7e628bbb.png)
+
+
+###install arduino IDE in Ubuntu from this site:
+
+##Install rosserial 
