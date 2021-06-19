@@ -32,4 +32,30 @@ roslaunch robot_arm_pkg_motors.launch
 
 ###install arduino IDE in Ubuntu from this site:
 
-##Install rosserial 
+##Install rosserial
+```
+$ sudo apt-get install ros-indigo-rosserial-arduino
+$ sudo apt-get install ros-indigo-rosseria
+```
+##Install ros_lib into the Arduino Environment
+```
+$ cd Arduino/libraries
+$ rm -rf ros_lib
+$ rosrun rosserial_arduino make_libraries.py
+```
+### instructions to use gazebo
+in terminal
+```
+$ cd catkin_ws
+$ source devel/setup.bash
+$ roslaunch robot_arm_pkg check_motors.launch
+```
+in other terminal 
+```
+$ cd catkin_ws
+$ source devel/setup.bash
+$ roslaunch robot_arm_pkg check_motors_gazebo.launch
+```
+in other terminal
+```
+```
