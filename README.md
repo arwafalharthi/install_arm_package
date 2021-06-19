@@ -56,6 +56,14 @@ $ cd catkin_ws
 $ source devel/setup.bash
 $ roslaunch robot_arm_pkg check_motors_gazebo.launch
 ```
-in other terminal
+in other terminal,change the premission
 ```
+$ cd catkin_ws/src/arduino_robot_arm/robot_arm_pkg/scripts
+$ sudo chmod +x joint_states_to_gazebo_py
+```
+then 
+```
+$ cd catkin_ws
+$ source devel/setup.bash
+$ rosrun robot_arm_pkg joint_states_to_gazebo.py
 ```
