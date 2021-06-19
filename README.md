@@ -30,9 +30,9 @@ roslaunch robot_arm_pkg_motors.launch
 ![ArmPkgRViz](https://user-images.githubusercontent.com/85634104/122269436-e03f2780-cee5-11eb-9ad0-939f7e628bbb.png)
 
 
-###install arduino IDE in Ubuntu from this site:
+### install arduino IDE in Ubuntu from this site:
 
-##Install rosserial
+## Install rosserial
 ```
 $ sudo apt-get install ros-indigo-rosserial-arduino
 $ sudo apt-get install ros-indigo-rosseria
@@ -67,3 +67,5 @@ $ cd catkin_ws
 $ source devel/setup.bash
 $ rosrun robot_arm_pkg joint_states_to_gazebo.py
 ```
+![joinrvisgazebo](https://user-images.githubusercontent.com/85634104/122645046-df460a00-d120-11eb-94d7-2c6c6837da52.png)
+
