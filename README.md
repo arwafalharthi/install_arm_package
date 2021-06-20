@@ -77,5 +77,6 @@ roslaunch moveit_pkg demo_gazebo.launch
 Result
 
 ![gazeporvizMovitB](https://user-images.githubusercontent.com/85634104/122688187-7d21fd80-d223-11eb-82db-2e7ac440f7e6.png)
-![gazeporvizMovitA](https://user-images.githubusercontent.com/85634104/122688189-7e532a80-d223-11eb-878d-32af5b9af447.png)
+![gazeporvisMoveitA](https://user-images.githubusercontent.com/85634104/122688255-e86bcf80-d223-11eb-9ee4-9a1ff9bc7edb.png)
+
 
