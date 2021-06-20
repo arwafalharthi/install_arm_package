@@ -22,7 +22,7 @@ To compile the packege
 ```
 $catkin_make
 ```
-after finshing the installing we open it by type :
+afterinstall, open it by :
 ```
 roslaunch robot_arm_pkg_motors.launch
 ```
