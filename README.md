@@ -37,7 +37,7 @@ roslaunch robot_arm_pkg_motors.launch
 $ sudo apt-get install ros-indigo-rosserial-arduino
 $ sudo apt-get install ros-indigo-rosseria
 ```
-##Install ros_lib into the Arduino Environment
+## Install ros_lib into the Arduino Environment
 ```
 $ cd Arduino/libraries
 $ rm -rf ros_lib
@@ -68,4 +68,11 @@ $ source devel/setup.bash
 $ rosrun robot_arm_pkg joint_states_to_gazebo.py
 ```
 ![joinrvisgazebo](https://user-images.githubusercontent.com/85634104/122645046-df460a00-d120-11eb-94d7-2c6c6837da52.png)
+
+This will run gazebo and RViz in moveit
+```
+roslaunch moveit_pkg demo_gazebo.launch
+```
+Result
+
 
